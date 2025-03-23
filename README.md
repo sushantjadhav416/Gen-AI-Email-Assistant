@@ -7,7 +7,7 @@ An AI-driven email assistant built using Spring Boot & Spring AI, integrated wit
 ✅ **AI-Powered Email Suggestions** – Uses **Spring AI** to generate smart email replies.  
 ✅ **Context-Aware Responses** – Understands email context for better automation.  
 ✅ **Seamless Chrome Extension** – Provides AI-powered suggestions directly inside Gmail.  
-✅ **Natural Language Processing (NLP)** – AI analyzes and generates meaningful responses.  
+✅ **Email tone customization** - Profesional, casual, formal, etc,  
 ✅ **Efficient Email Categorization** – Helps prioritize emails using AI.  
 ✅ **Secure & Scalable Backend** – Built using **Spring Boot, Spring AI, and REST APIs**.  
 
@@ -42,8 +42,8 @@ An AI-driven email assistant built using Spring Boot & Spring AI, integrated wit
 ### 🏗️ **Backend – Spring Boot AI Server**  
 #### **1️⃣ Clone the Repository**  
 ```bash
-git clone https://github.com/your-username/smart-email-assistant.git
-cd smart-email-assistant
+git clone https://github.com/your-username/Gen-AI-Email-Assistantt.git
+cd Gen-AI-Email-Assistant
 ```
 #### **2️⃣ Configure API Keys**  
 - Set up **OpenAI API key** (or any other LLM provider).  
@@ -85,8 +85,7 @@ cd chrome-extension
 | Method | Endpoint | Description |  
 |--------|----------|-------------|  
 | `POST` | `/api/email/generate-reply` | AI-generated email reply |  
-| `GET` | `/api/email/history` | Fetch past AI-generated emails |  
-| `POST` | `/api/email/categorize` | AI-based email categorization |  
+
 
 ---
 
@@ -97,11 +96,6 @@ cd chrome-extension
 
 ## 🤝 Contributing  
 We welcome contributions! Fork the repo, improve features, and submit a PR.  
-
----
-
-## 🛡️ License  
-This project is licensed under the **MIT License**.  
 
 ---
 
