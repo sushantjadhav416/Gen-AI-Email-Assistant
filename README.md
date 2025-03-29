@@ -18,8 +18,7 @@ An AI-driven email assistant built using Spring Boot & Spring AI, integrated wit
 - **Spring Boot 3** – REST API Development  
 - **Spring AI** – AI-powered email response generation  
 - **OpenAI/GPT Integration** – For intelligent email drafting  
-- **Spring Security** – Secure authentication  
-- **MongoDB / PostgreSQL** – Email storage and retrieval  
+
 
 ### **Frontend (Chrome Extension)**
 - **HTML, CSS, JavaScript** – Chrome extension UI  
@@ -85,7 +84,6 @@ cd chrome-extension
 | Method | Endpoint | Description |  
 |--------|----------|-------------|  
 | `POST` | `/api/email/generate-reply` | AI-generated email reply |  
-
 
 ---
 
