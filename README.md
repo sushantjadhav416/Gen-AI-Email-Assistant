@@ -1,6 +1,6 @@
 ## 📩 Smart Email Assistant – AI-Powered Email Management
 
-An AI-driven email assistant built using Spring Boot & Spring AI, integrated with a Chrome Extension for seamless email automation and smart suggestions.# 📩 Smart Email Assistant – AI-Powered Email Management
+
 **An AI-driven email assistant built using Spring Boot & Spring AI, integrated with a Chrome Extension for seamless email automation and smart suggestions.**
 
 ## 🔥 Key Features
