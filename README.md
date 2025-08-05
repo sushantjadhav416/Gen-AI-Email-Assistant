@@ -47,11 +47,9 @@ cd Gen-AI-Email-Assistant
 #### **2️⃣ Configure API Keys**  
 - Set up **OpenAI API key** (or any other LLM provider).  
 - Configure **Spring Boot properties** in `application.yml`:  
-```yaml
-spring:
-  ai:
-    openai:
-      api-key: YOUR_OPENAI_API_KEY
+```application.properties
+gemini.api.url=https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=
+gemini.api.key=
 ```
 
 #### **3️⃣ Run the Application**  
