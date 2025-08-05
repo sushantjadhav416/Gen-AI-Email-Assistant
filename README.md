@@ -49,7 +49,7 @@ cd Gen-AI-Email-Assistant
 - Configure **Spring Boot properties** in `application.properties`:  
 ```application.properties
 gemini.api.url=https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=
-gemini.api.key=
+gemini.api.key=<Enter_Your_API_Key>
 ```
 
 #### **3️⃣ Run the Application**  
